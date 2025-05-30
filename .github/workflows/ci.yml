@@ -16,3 +16,9 @@ jobs:
 
           - name: "check nodejs version"
             run: node --version
+
+          - name: "Clone the Repository"
+            run: actions/checkout@2
+
+          - name: "List Directories after checkout"
+            run: ls 
